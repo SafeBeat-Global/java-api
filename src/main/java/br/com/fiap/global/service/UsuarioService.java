@@ -9,4 +9,9 @@ public class UsuarioService extends BaseService<Usuario, Long>{
     public UsuarioService(UsuarioRepository repository) {
         super(repository);
     }
+
+    @Override
+    protected void setId(Long aLong, Usuario entity) {
+        entity.setId(aLong);
+    }
 }

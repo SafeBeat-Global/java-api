@@ -9,4 +9,9 @@ public class InstituicaoService extends BaseService<Instituicao, Long>{
     public InstituicaoService(InstituicaoRepository repository) {
         super(repository);
     }
+
+    @Override
+    protected void setId(Long aLong, Instituicao entity) {
+        entity.setId(aLong);
+    }
 }

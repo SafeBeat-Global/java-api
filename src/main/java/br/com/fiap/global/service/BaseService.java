@@ -27,11 +27,14 @@ public abstract class BaseService<T, ID> {
     }
 
     public T update(ID id, T entity) {
+        setId(id, entity);
         if (repository.existsById(id)) {
             return repository.save(entity);
         }
         return null;
     }
+
+    protected abstract void setId(ID id, T entity);
 
     public void delete(ID id) {
         repository.deleteById(id);

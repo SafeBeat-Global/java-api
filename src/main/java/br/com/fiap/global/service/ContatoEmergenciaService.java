@@ -9,4 +9,9 @@ public class ContatoEmergenciaService extends BaseService<ContatoEmergencia, Lon
     public ContatoEmergenciaService(ContatoEmergenciaRepository repository) {
         super(repository);
     }
+
+    @Override
+    protected void setId(Long aLong, ContatoEmergencia entity) {
+        entity.setId(aLong);
+    }
 }

@@ -9,4 +9,9 @@ public class PacienteService extends BaseService<Paciente, Long>{
     public PacienteService(PacienteRepository repository) {
         super(repository);
     }
+
+    @Override
+    protected void setId(Long aLong, Paciente entity) {
+        entity.setId(aLong);
+    }
 }

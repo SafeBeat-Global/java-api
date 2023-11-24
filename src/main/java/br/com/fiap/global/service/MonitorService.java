@@ -9,4 +9,9 @@ public class MonitorService extends BaseService<Monitor, Long>{
     public MonitorService(MonitorRepository repository) {
         super(repository);
     }
+
+    @Override
+    protected void setId(Long aLong, Monitor entity) {
+        entity.setId(aLong);
+    }
 }

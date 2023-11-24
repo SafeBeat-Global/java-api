@@ -9,4 +9,9 @@ public class DadosIoTService extends BaseService<DadosIoT, Long>{
     public DadosIoTService(DadosIoTRepository repository) {
         super(repository);
     }
+
+    @Override
+    protected void setId(Long aLong, DadosIoT entity) {
+        entity.setId(aLong);
+    }
 }
