@@ -1,6 +1,8 @@
 package br.com.fiap.global.controller;
 
 import br.com.fiap.global.service.BaseService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
@@ -19,8 +21,12 @@ public abstract class BaseController<T, ID> {
     }
 
     @GetMapping("/{id}")
-    public T getById(@PathVariable ID id) {
-        return service.getById(id);
+    public ResponseEntity<T> getById(@PathVariable ID id) {
+        T byId = service.getById(id);
+        if (byId == null){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+        return ResponseEntity.status(HttpStatus.FOUND).body(byId);
     }
 
     @PostMapping
@@ -29,8 +35,12 @@ public abstract class BaseController<T, ID> {
     }
 
     @PutMapping("/{id}")
-    public T update(@PathVariable ID id, @RequestBody T entity) {
-        return service.update(id, entity);
+    public ResponseEntity<T> update(@PathVariable ID id, @RequestBody T entity) {
+        T updated = service.update(id, entity);
+        if (updated == null){
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+        }
+        return ResponseEntity.status(HttpStatus.OK).body(updated);
     }
 
     @DeleteMapping("/{id}")
