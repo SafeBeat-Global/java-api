@@ -25,23 +25,31 @@ Decidimos usar o banco Oracle forncido pela FIAP.
 
 Visão geral do grupo de recurso:
 
-![image](https://github.com/SafeBeat-Global/api-java/assets/101985616/5842177e-10e7-447c-b677-8b9e72ca7d39)
+![image](/imagens/grupo_de_recursos.png)
 
 Visão geral do Plano do Serviço de Aplicativos:
 
-![image](https://github.com/SafeBeat-Global/api-java/assets/101985616/b58420d3-3438-4fc6-a51a-30b043df188d)
+![image](/imagens/plano_de_servico_de_app.png)
 
 Visão geral do serviço de Aplicativo Web:
 
-![image](https://github.com/SafeBeat-Global/api-java/assets/101985616/829228bd-2351-4f70-af3b-3956d3682f2e)
+![image](/imagens/servico_de_aplicativo_web.png)
+
+Visão geral do banco de dados SQL:
+
+![image](/imagens/banco_de_dados_sql.png)
+
+Visão geral do SQL Servre:
+
+![image](/imagens/sql_server.png)
 
 Tive alguns problemas com esse bendito banco da fiap:
 
-![image](https://github.com/SafeBeat-Global/api-java/assets/101985616/10da9177-0f75-4d4f-bb13-852c932d982d)
+![image](/imagens/erro_fiap.png)
 
 ## Requisições
 
-Deixarei aqui apenas exemplos de usuário.
+Deixarei aqui apenas exemplos de usuário pois são os únicos que estamos usando no momento. O restante está implementado, mas não foram devidamente polidos.
 
 ### **REGISTRAR**
 
