@@ -1,3 +1,4 @@
+# Introdução
 SafeBeat é um sistema inovador de monitoramento de saúde. Ao adquirir a pulseira SafeBeat, os usuários podem cadastrar suas informações vitais e vincular a pulseira à sua conta. O sistema atende tanto a usuários independentes quanto a instituições como asilos, permitindo monitoramento remoto e notificações em caso de sinais de infarto.
 
 Existem 4 tipos de usuários:
@@ -6,6 +7,11 @@ Existem 4 tipos de usuários:
   - Independente: um familiar, amigo etc.;
   - Funcionário: alguém atrelado a uma instituição, como um enfermeiro.
 - Moderador: quem está responsável pela moderação das instituições e seus funcionários.
+
+## Sumário
+
+- [Arquitetura](#arquitetura)
+- [Requisições](#requisições)
 
 ## Arquitetura
 
