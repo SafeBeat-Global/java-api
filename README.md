@@ -8,6 +8,10 @@ Existem 4 tipos de usuários:
   - Funcionário: alguém atrelado a uma instituição, como um enfermeiro.
 - Moderador: quem está responsável pela moderação das instituições e seus funcionários.
 
+## Links importantes
+- [Apresentação focada em DevOps no youtube](https://www.youtube.com/watch?v=00WcHWfSxTc)
+- [Compiladão geral sobre o estaod atual do projeto](https://youtu.be/QJKVp0CrFKM). Infelizmente meu PC está reiniciando quando vou renderizar um video no meu editor de video, então esse ficou especialmente com uma qualidade bem abaixo do que eu estava planejando.
+
 ## Sumário
 
 - [Arquitetura](#arquitetura)
