@@ -11,8 +11,8 @@ Existem 4 tipos de usuários:
 ## Links importantes
 - URL para testar a API hospedada no Azure: [https://safebeat.azurewebsites.net/](https://safebeat.azurewebsites.net/). Peço que sejam concientes nos testes pois eu não tinha mais saldo do plano de estudante, então estou pagando pelo banco de dados.
 - [Apresentação focada em DevOps no youtube](https://www.youtube.com/watch?v=00WcHWfSxTc)
-- [Compiladão geral sobre o estaod atual do projeto](https://youtu.be/QJKVp0CrFKM). Infelizmente meu PC está reiniciando quando vou renderizar um video no meu editor de video, então esse ficou especialmente com uma qualidade bem abaixo do que eu estava planejando.
-
+- ~[Compiladão geral sobre o estado atual do projeto](https://youtu.be/QJKVp0CrFKM). Infelizmente meu PC está reiniciando quando vou renderizar um video no meu editor de video, então esse ficou especialmente com uma qualidade bem abaixo do que eu estava planejando.~
+- [Compiladão geral sobre o estado atual do projeto agora que meu PC parou de travar](https://youtu.be/giJcT_ogVcI)
 ## Sumário
 
 - [Arquitetura](#arquitetura)
