@@ -9,6 +9,7 @@ Existem 4 tipos de usuários:
 - Moderador: quem está responsável pela moderação das instituições e seus funcionários.
 
 ## Links importantes
+- Video PITCH do projeto: [Não Clique Aqui](https://www.youtube.com/watch?v=FmfozoqE9Yc)
 - URL para testar a API hospedada no Azure: [https://safebeat.azurewebsites.net/](https://safebeat.azurewebsites.net/). Peço que sejam concientes nos testes pois eu não tinha mais saldo do plano de estudante, então estou pagando pelo banco de dados.
 - [Apresentação focada em DevOps no youtube](https://www.youtube.com/watch?v=00WcHWfSxTc)
 - ~[Compiladão geral sobre o estado atual do projeto](https://youtu.be/QJKVp0CrFKM). Infelizmente meu PC está reiniciando quando vou renderizar um video no meu editor de video, então esse ficou especialmente com uma qualidade bem abaixo do que eu estava planejando.~
